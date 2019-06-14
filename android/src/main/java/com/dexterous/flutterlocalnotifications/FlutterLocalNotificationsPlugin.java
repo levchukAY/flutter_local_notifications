@@ -696,7 +696,7 @@ public class FlutterLocalNotificationsPlugin implements MethodCallHandler, Plugi
                         break;
                 }
             }
-        }
+        });
     }
 
     private void pendingNotificationRequests(Result result) {
